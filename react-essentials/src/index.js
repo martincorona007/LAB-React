@@ -16,10 +16,11 @@ root.render(
   //   <li>d2</li>
   //   <li>d3</li>
   // </ul>,
-  <div>
-    <AppTwo/>,
-    <App/>,
-  </div>
+    <App available={true}/>
+  // <div>
+  //   <AppTwo/>,
+  //   <App/>,
+  // </div>
   //document.getElementById("root")//where to put it
   // <React.StrictMode>
   //   <App />
